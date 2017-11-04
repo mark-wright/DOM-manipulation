@@ -1,6 +1,3 @@
-var gridElement = document.getElementsByClassName('grid');
-var gridNumber = 1;
-
 function createGrid(x) {
     while (document.querySelectorAll('.grid').length > 0) {
         document.querySelector('#container').removeChild(document.querySelector('.grid'));
